@@ -1,0 +1,27 @@
+{
+  "name": "BuildToolsExercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/http-server app/ -p 9000",
+    "test": "node_modules/.bin/http-server -p 9001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabinv/BuildToolsExercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabinv/BuildToolsExercise/issues"
+  },
+  "homepage": "https://github.com/prabinv/BuildToolsExercise#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
